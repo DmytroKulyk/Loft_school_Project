@@ -1,0 +1,68 @@
+body{
+	background: url(img/bg/geometry2.png);
+}
+
+.main_window{
+	text-align: center;
+	
+}
+
+.botton_name,
+.image_container{
+   position: absolute;
+   margin-left: auto;
+   margin-right: auto;
+   left: 0;
+   right: 0;
+}
+
+.link{
+ background-color: #33c1e3;
+ padding: 39px;
+ width: 300px;
+ margin: 0 auto;
+ border-bottom-right-radius: 10px;
+ border-bottom-left-radius: 10px;
+ box-sizing: border-box;
+}
+
+.button{	
+	padding: 6px 25px;
+	border: 2px solid #f6f6f6;
+	border-radius: 20px; 
+	color: white;
+	font-size: 16px;
+	text-decoration: none;
+	font-family: "Fira Sans";
+	}
+
+.name{
+	width: 300px;
+	height: 154px;
+    margin: 0 auto;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    background-color: #fff;
+}
+
+.name_text{
+	padding-top: 80px;
+	font-size: 21px;
+    font-family: "Fira Sans";
+}
+
+.image{
+   border: 1px solid #616161;
+   border-radius: 70px;
+}
+
+.image_container{
+	margin-top: 150px;
+	z-index: 1;
+}
+
+.botton_name{
+	margin-top: 220px;
+}
+
+
