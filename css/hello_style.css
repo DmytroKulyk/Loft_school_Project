@@ -1,0 +1,101 @@
+ html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+      }
+      
+.main_window{
+	width:100%;
+    height:100%;
+	background: url('../img/bg/geometry2.png');
+}
+
+/* ==Just try to do something new== */
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
+.content{
+   opacity:0;  /* make things invisible upon start */
+	-webkit-animation:fadeIn ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+	-moz-animation:fadeIn ease-in 1;
+	animation:fadeIn ease-in 1;
+ 
+	-webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+	-moz-animation-fill-mode:forwards;
+	animation-fill-mode:forwards;
+ 
+	-webkit-animation-duration:1s;
+	-moz-animation-duration:1s;
+	animation-duration:1s;
+
+}
+
+/* ====== ====== ==== ==== === */
+.main_window{
+	text-align: center;	
+}
+
+.botton_name,
+.image_container{
+   position: absolute;
+   margin-left: auto;
+   margin-right: auto;
+   left: 0;
+   right: 0;
+}
+
+.link{
+ background-color: #33c1e3;
+ padding: 39px;
+ width: 300px;
+ margin: 0 auto;
+ border-bottom-right-radius: 10px;
+ border-bottom-left-radius: 10px;
+ box-sizing: border-box;
+}
+
+.button{	
+	padding: 6px 25px;
+	border: 2px solid #f6f6f6;
+	border-radius: 20px; 
+	color: white;
+	font-size: 16px;
+	text-decoration: none;
+	font-family: "Fira Sans"; 
+	}
+.button:hover{
+	background: #0ab0d8;
+}
+
+
+.name{
+	width: 300px;
+	height: 154px;
+    margin: 0 auto;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    background-color: #fff;
+}
+
+.name_text{
+	padding-top: 95px;
+	font-size: 21px;
+    font-family: "Fira Sans";
+}
+
+.image{
+   border: 1px solid #616161;
+   border-radius: 70px;
+}
+
+.image_container{
+	margin-top: 150px;
+	z-index: 1;
+}
+
+.botton_name{
+	margin-top: 220px;
+}
+
+

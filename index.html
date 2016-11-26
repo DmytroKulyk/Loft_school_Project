@@ -2,111 +2,123 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>About Dmytro Kulyk</title>
-
+<link rel="stylesheet" href="css/header_style.css">
+<link rel="stylesheet" href="css/footer_style.css">
+<link rel="stylesheet" type="text/css" href="css/main_content_style.css">
 
 </head>
 
  <body>
  	<div class="wrapper">
  	<!-- Head of the page  with img & contacts-->
- 		<header>
-        
- 		 <div class="container">
+ 		<header class="clearfix">    
+ 		  <div class="container">
+         <div class="header_left">
+ 		  	    <div class="user">
+              <div class="user_img">
+ 		  		      <img class="avatar" src="img/content/avatar1.jpg" alt="avatar" height="60" width="60">
+              </div> 
 
- 		  <div class="avatar_name_container">
- 		  	<div class="avatar_name">
-               
-               <div class="avatar_img">
- 		  		<img src="img/content/avatar1.jpg" alt="avatar" height="60" width="48">
-               </div> 
+              <div class="user_name">
+ 		  		     Dmytro Kulyk
+              </div>
+ 		  	    </div> 
+          </div>
 
-               <div class="my_name">
- 		  		 Dmytro Kulyk
-                </div>
- 		  	</div>
-
- 		  </div>
-
- 		  <div class="header_contacts">
- 		  	
- 		  	<a href="#">Contacts</a>
-
- 		  </div>
- 		  
- 		 </div>	
+ 		      <div class="header_right">
+            <div class="contacts_div">
+ 		  	    <a class="contacts" class="contacts" href="#">Contacts</a></div>
+          </div>
+ 		  </div>	
  		</header>
     <!-- =====Main content====== -->
- 		<section>
- 			<div class="container">
+ 	<section class="content clearfix">
+ 		<div class="container">
 
- 				<aside>
+ 				<aside class="sidebar">
  			<!-- =======Navigation Bar/ left side ======-->
- 				 <nav>
- 				 		<ul>
- 				 			<li><a href="index.html">About</a></li>
- 				 			<li><a href="experience.html">Experience</a></li>
- 				 			<li><a href="portfolio.html">Portfolio</a></li>
-                            <li><a href="hello.html">Hello_Page</a></li>
+ 				 <nav class="menu">
+ 				 		<ul class="menu_items">
+ 				 			<li class="menu_item">
+                <a href="index.html" class="menu_link">
+                  <span class="menu_icon"></span>
+                  <span class="menu-title_active">About</span>
+                </a>
+              </li>
+ 				 			<li class="menu_item">
+                <a href="experience.html" class="menu_link">
+                  <span class="menu_icon"></span>
+                  <span class="menu-title">Experience</span>
+                </a>
+              </li>
+ 				 			<li class="menu_item">
+                <a href="portfolio.html" class="menu_link">
+                  <span class="menu_icon"></span>
+                  <span class="menu-title">Portfolio</span>
+                </a>
+              </li>
+              <li class="menu_item">
+                <a href="hello.html" class="menu_link">
+                  <span class="menu_icon"></span>
+                  <span class="menu-title">Hello_Page</span>
+                </a>
+              </li>
  				 		</ul>
  				 	</nav>	
  				</aside>
          <!-- ====== MAIN Right Side ======  -->   
- 				<main>
- 					<div>
+ 			<main class="page-content">
+ 					<div class="about">
  					 <!--  Porfolio photo / left side -->
-                     <div>
- 						<div> 
-       					 <img src="img/content/avatar2.jpg" alt="avatar" height="300px" width="300px">
- 						</div>
-                     </div>   
+            <div class="about_left clearfix">
+ 						  <div class="about-img"> 
+       					 <img src="img/content/avatar2.jpg" class="avatar1" alt="avatar" height="220px" width="220px">
+ 						  </div>
+            </div> 
  				 <!-- Content / Abot / Text / right side -->	
- 						
- 					   <div>
+ 					    <div class="about-right clearfix">
 
- 					      <h1>About</h1>
+ 					      <h1 class="title">About</h1>
                          
- 					     <div> 
-							<p><b>Thank you</b> for taking the time to visit my portfolio. I am a <b>front end developer</b> from Kiev, Ukraine, with a strong background in <u>JavaScript, HTML5, CSS3 and Git</u>. My recent experience includes using front end technologies such as <b>jQuery</b>, as well as back end technologies such as <b>Ajax</b>.</p>
-	                        <p>I became a <b>front end developer</b> because software is the closest thing to magic that we’ll see in our lifetimes. We can create entire worlds with their own sets of rules, and in many cases the only practical limitations are those of our own imaginations. That’s a very seductive notion for any creative person with lots of good ideas.</p>
+ 					     <div class="about_description"> 
+  							<p><b>Thank you</b> for taking the time to visit my portfolio. I am a <b>front end developer</b> from Kiev, Ukraine, with a strong background in <u>JavaScript, HTML5, CSS3 and Git</u>. My recent experience includes using front end technologies such as <b>jQuery</b>, as well as back end technologies such as <b>Ajax</b>.</p>
 
-							<p>I am passionate about <strong>working with other exceptional</strong> front end developers to <strong>solve </strong>complex problems, and <b>produce</b> modular, well-documented, and highly functional web pages. <b>I enjoy coding</b>, fishing and I love cats.</p>
+  	            <p>I became a <b>front end developer</b> because software is the closest thing to magic that we’ll see in our lifetimes. We can create entire worlds with their own sets of rules, and in many cases the only practical limitations are those of our own imaginations. That’s a very seductive notion for any creative person with lots of good ideas.</p>
 
-							<p>Want to <u>hire me,</u> have questions about my work or just <u>want to say hello?</u> Please go ahead and <u>contact me!</u></p>
+  							<p>I am passionate about <strong>working with other exceptional</strong> front end developers to <strong>solve </strong>complex problems, and <b>produce</b> modular, well-documented, and highly functional web pages. <b>I enjoy coding</b>, fishing and I love cats.</p>
+
+  							<p>Want to <u>hire me,</u> have questions about my work or just <u>want to say hello?</u> Please go ahead and <u>contact me!</u></p>
  					     </div>
                     
-                        <div>
-                     	<a href="#">Download Resume</a>
+                <div class="download">
+                  <a class="download_link" href="#"><span class="download_icon"></span><span class="download_title">Download Resume</span></a>
+                </div>
 
-                        </div>
-
- 					</div>
-
- 				   </div>
-
- 				</main>
- 			</div>
-
- 		</section>
- 	</div>	
+ 					    </div>
+ 				  </div>
+ 			</main>
+ 		</div>
+ 	</section>
+</div>	
  	
     <!-- ========= Footer of the page =========== -->	 
  <footer>
 
     <div class="container">
-          <div>      
-             <div>
+          <div class="footer_left">      
+             <div class="copyright">
               &copy; Webpage design was created in the LoftSchool 
              </div>
           </div> 
-         <div>
-            <ul>
-                <li><a href="#">Vk</a></li>
-                <li><a href="#">FaceBook</a></li>
-                <li><a href="#">LinkedIn</a></li>   
+         <div class="footer_right">
+            <ul class="socials">
+                <li class="social_item"><a href="#" class="social_link social_link_vk"target="_blank">vk</a></li>
+                <li class="social_item"><a href="#" class="social_link social_link_fb"target="_blank">faceBook</a></li>
+                <li class="social_item"><a href="#" class="social_link social_link_li"target="_blank">linkedIn</a></li>   
             </ul>
          </div>
-
     </div>
          
             

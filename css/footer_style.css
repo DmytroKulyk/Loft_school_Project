@@ -1,0 +1,38 @@
+
+footer{
+	height: 50px;
+	width: 100%;
+	background: #414141;
+}
+
+.footer_left{
+	float: left;
+}
+
+.copyright{
+	color: #9c9c9c;
+	font-size: 14px;
+	padding-top: 18px;
+}
+
+
+.footer_right{
+	float: right;
+}
+
+.socials{
+	margin-top: 18px;
+	
+}
+
+.social_item{
+	list-style: none;
+	display: inline-block;
+}
+.social_link{
+	color: white;
+}
+
+/* ==================
+           Media Queries
+            ================== */

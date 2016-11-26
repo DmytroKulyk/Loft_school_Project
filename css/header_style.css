@@ -1,0 +1,80 @@
+header{
+	border-bottom: 1px solid #e9e9e9;
+	text-align: center;
+  height: 140px;
+}
+
+/* =====Left Side ========*/
+
+.user_img{
+	margin-top: 10px;	
+}
+.avatar{
+	border: 1px solid #6c6c6c;
+    border-radius: 60px;
+}
+
+.user_name{	
+    font-size: 18px;
+    font-family: "Fira Sans";
+}
+
+/*====Right Side===== */
+
+.contacts_div{
+	margin: 10px 15px;
+}
+.contacts{
+	color: #32c3e5;
+	font-size: 18px;
+	text-decoration: none;
+	border-bottom: 1px dashed #32c3e5;
+	font-family: "Fira Sans";
+}
+
+
+/* ==================
+           Media Queries
+            ================== */
+
+@media (min-width: 769px){
+  header{
+    height: 80px;
+  }
+  .user{
+  	float: left;
+  }
+  .user_img,
+  .user_name{
+  	float: left;
+  }
+  .user_name{
+  	margin-left: 20px;
+  	margin-top: 35px;
+  	padding-bottom: 35px;
+  }
+
+  .header_right{
+  	float: right;
+  }
+ 
+ .clearfix::after{
+   content: "";
+   display: table;
+   clear: both;
+ }
+ .contacts_div{
+  margin-top: 35px;
+ }
+
+}
+
+
+
+
+
+
+
+
+
+
