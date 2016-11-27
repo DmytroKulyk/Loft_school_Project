@@ -16,7 +16,8 @@
 .content{
 	background: #f6f6f6;
 	margin-top: 0;
-	padding: 1em 0;
+	padding: 0 0;
+  height: 100%;
 }
 
 /* ----- Navigation ----- */
@@ -30,19 +31,23 @@
 	text-decoration: none;
 }
 .menu_item{
-	display: inline-block;
+	  display: inline-block;
     margin: 5px;
 }
 
 .menu-title{
-	font-size: 15px;
+	font-size: 18px;
 	color: #414141;
+  font-family: "Fira Sans";
+}
+.menu_item_active{
+  padding-bottom: 10px;
+  border-bottom: 6px solid #33c1e3;
 }
 .menu-title_active{
 	font-size: 18px;
-	padding-bottom: 10px;
 	color: #33c1e3;
-	border-bottom: 6px solid #33c1e3;
+  font-family: "Fira Sans";
 }
 
 .title{
@@ -69,27 +74,28 @@
 	 width: 80%;
 	 max-width: 1000px;
 	 margin: 0 auto;
+   
    }
    
    .sidebar{
    	float: left;
-   	width: 25%;
+   	width: 220px;
    }
    
    .page-content{
-   	float: left;
-   	width: 75%;
+   	float: right;
+   	width: 700px;
    }
    
    .about_left{
    	float: left;
-   	width: 30%;
+   	width: 300px;
   	margin-top: 25px;
-   	margin-right: 60px;
+   	
    }
   .about-right{
   	float: left;
-  	width: 45%;
+  	width: 400px;
   } 
   .about_description{
   	height: 370px;
@@ -99,19 +105,23 @@
   }
 
 /* ----- Navigation ----- */
-.menu_item{
-	display: block;
+.menu_items{
+	display: inline-block;
+  padding-right: 20px;
+  text-align: right;
 }
 .menu-title{
-	font-size: 18px;
-	color: #414141;
-    line-height: 30px;
+	  font-size: 18px;
+	  color: #414141;
+    /* line-height: 30px; */
+}
+.menu_item_active{
+  padding: 0 24px;
+  border-right: 6px solid #33c1e3;
+  border-bottom: 0px;
 }
 .menu-title_active{
-	padding-right: 24px;
 	color: #33c1e3;
-	border-right: 6px solid #33c1e3;
-	border-bottom: 0px;
 }
 
 
