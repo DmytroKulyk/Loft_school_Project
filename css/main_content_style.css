@@ -5,9 +5,12 @@
   html, body {
         height: 100%;
         margin: 0 auto;
+       
       }
 /* ----- Layout Containers ------ */
- 
+/* .wrapper{
+  height: 100%;
+} */
 .container{
 	padding-left: 1em;
 	padding-right: 1em;
@@ -68,7 +71,7 @@
 
 @media (min-width: 769px){
    .wrapper{
-     min-height: calc(100vh - 50px); /* 100view port hight - 50px footer height */
+     min-height: calc(100vh-50px); /* 100view port hight - 50px footer height */
    }
    .container{
 	 width: 80%;
