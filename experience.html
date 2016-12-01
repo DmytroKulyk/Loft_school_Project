@@ -6,12 +6,14 @@
 	<title>Experience</title>
 <link rel="stylesheet" href="css/header_style.css">
 <link rel="stylesheet" href="css/footer_style.css">
-<link rel="stylesheet" type="text/css" href="css/main_content_style.css">    
+<link rel="stylesheet" type="text/css" href="css/main_content_style.css">
+<link rel="stylesheet" href="css/css/font-awesome.min.css">  
+<link rel="stylesheet" href="css/experience_style.css">  
 </head>
 <body>
 
-	<div class="wrapper">
-        <header>    
+<div class="wrapper">
+        <header class="clearfix">    
           <div class="container">
              <div class="header_left">
                 <div class="user">
@@ -34,28 +36,36 @@
 
 <!-- =====Main content====== -->
 
-    <section class="content clearfix">
-    <div class="container">
+  <section class="content">
+    <div class="container clearfix">
 
         <aside class="sidebar">
       <!-- =======Navigation Bar/ left side ======-->
          <nav class="menu">
             <ul class="menu_items">
+  
               <li class="menu_item">
                 <a href="index.html" class="menu_link">
-                  <span class="menu_icon"></span>
+                  <span class="menu_icon">
+                    <i class="fa fa-user-secret" aria-hidden="true"></i>
+                  </span>
                   <span class="menu-title">About</span>
                 </a>
               </li>
+
               <li class="menu_item menu_item_active">
                 <a href="experience.html" class="menu_link">
-                  <span class="menu_icon"></span>
+                  <span class="menu_icon_active">
+                    <i class="fa fa-rocket" aria-hidden="true"></i>
+                  </span>
                   <span class="menu-title_active">Experience</span>
                 </a>
               </li>
               <li class="menu_item">
                 <a href="portfolio.html" class="menu_link">
-                  <span class="menu_icon"></span>
+                  <span class="menu_icon">
+                    <i class="fa fa-briefcase" aria-hidden="true"></i>
+                  </span>
                   <span class="menu-title">Portfolio</span>
                 </a>
               </li>
@@ -70,86 +80,126 @@
         </aside>
          <!-- ====== MAIN Right Side ======  -->   
       <main class="page-content">
-        	<div>
+        <div class="about_me clearfix">
 <!--  University photo / left side -->
-        		<div>
-        		 
-        		  <div>
-        		   <h2>About Me</h2>
-        		  </div>
- 						
- 				  <div> 
-       			   <img src="img/content/university.png" alt="university">
- 				  </div>
+        		<div class="about_me-left">
+              
+              <h1 class="title">About Me</h1>
 
-                </div>  
+              <div class="about-me_university-photo">
+       			   <img src="img/content/university.png" alt="university" class="university_photo" height="220px" width="220px">
+ 				      </div>
+            </div>  
 
  <!-- Work Experience/ Experiense / Text / right side -->
-                <div>
-                    <ul>
-                    	<li>
-                         <div>
-                    		<div>2016</div>
-
-                    		<div><img src="img/decor/Ellipse_3.png" alt="pin"></div>
-                            <div>
-
-                    			<div>W San Francisco | San 	Francisco | USA</div>
-                    			<div>2016 - present</div>	
+          <div class="about_me-right">
+               
+              
+                <div class="career">
+                  <ul class="career_items">
+                    <li  class="career_item clearfix">
+                      <div class="career_year_pin">
+                        2016
+                      </div>    
+                    		<div class="career_pin">
+                          <img src="img/decor/Ellipse_3.png" alt="pin">
+                        </div>
+                        <div class="career_info">
+                          <div class="career_place">
+              
+                            <div class="career_place-header">
+                            W San Francisco |
                             </div>
-                    	 </div>
-                        </li>
+                            <div class="career_place-content">
+                             San 	Francisco | USA
+                            </div>
+                    			<div class="career_duration">
+                           2016 - present
+                          </div>	
+                          </div>
+                        </div>
+                       
+                    </li>
 
-                    	<li>
-                         <div>
-                    	    <div>2015</div>
-                    		<div><img src="img/decor/Ellipse_3.png" alt="pin"></div>
-                    		<div>
-                    			<div>Boca Raton Marriott | Florida | USA</div>
-                    			<div>2015 - 2016</div>	
+                    <li class="career_item">
+                      <div class="career_year_pin">
+                        2015
+                      </div>  
+                    	<div class="career_pin">
+                        <img src="img/decor/Ellipse_3.png" alt="pin">
+                      </div>
+                    	<div class="career_info">
+                    		<div class="career_place">
+                          <div class="career_place-header">
+                          Boca Raton Marriott 
+                          </div>
+                          <div class="career_place-content">
+                           | Florida | USA
+                          </div>                        
+                    		  <div class="career_duration">
+                           2015 - 2016
+                          </div>	
+                        </div>
+                    	</div> 
+                    </li>
+
+
+                    <li class="career_item">
+                      <div class="career_year_pin">
+                    		2014
+                      </div>  
+                    	<div class="career_pin">
+                          <img src="img/decor/Ellipse_3.png" alt="pin">
+                      </div>
+                    	  <div class="career_info">
+                    			<div class="career_place">
+                            <div class="career_place-header">
+                              Borispol Airport 
+                            </div>
+                            <div class="career_place-content">
+                              | Kiev | Ukraine
+                            </div>
+                      			<div class="career_duration">
+                              2014 - 2015
+                            </div>
+                          </div>
                     		</div>
-                    	 </div>
-                        </li>
+                    	
+                    </li>
 
-
-                    	<li>
-                         <div>
-                    		<div>2014</div>
-                    		<div><img src="img/decor/Ellipse_3.png" alt="pin"></div>
-                    		<div>
-                    			<div>Borispol Airport | Kiev | Ukraine</div>
-                    			<div>2014 - 2015</div>
-                    		</div>
-                    	 </div>
-                        </li>
-
-                    	<li>
-                         <div>
-                    		<div>2013</div>
-                    		<div><img src="img/decor/Ellipse_3.png" alt="pin"></div>
-                    		<div>
-                    			<div>National University of Food Technologies | M.A. Hospitality | Kiev Ukraine</div>
-                    			<div>2007 - 2013</div>
-                    		</div>
-                    	 </div>
-                        </li>
-
-                    </ul>
-
-                </div>  
-
-        	</div>
-        </main>
-
+                    <li class="career_item clearfix">
+                    		<div class="career_year_pin">
+                          2013
+                        </div>
+                        <div class="career_pin">
+                          <img src="img/decor/Ellipse_3.png" alt="pin">
+                        </div>
+                    		 <div class="career_info">
+                    			  <div class="career_place">
+                              <div class="career_place-header"> 
+                                National University of Food Technologies 
+                              </div>
+                              <div class="career_place-content">
+                              | M.A. Hospitality | Kiev Ukraine
+                              </div>
+                      			  <div class="career_duration">
+                              2007 - 2013
+                              </div>
+                           </div> 
+                        </div> 
+                    		
+                    </li>
+                  </ul>
+                </div>       
+        </div>
+      </main>
     </div>
-
-    </section>
-
+  </section>
 </div>
 <!-- ========= Footer of the page =========== -->
 <footer>
 
-    <div class="container">
+    <div class="container clearfix">
           <div class="footer_left">      
              <div class="copyright">
               &copy; Webpage design was created in the LoftSchool 
@@ -157,13 +207,18 @@
           </div> 
          <div class="footer_right">
             <ul class="socials">
-                <li class="social_item"><a href="#" class="social_link social_link_vk"target="_blank">vk</a></li>
-                <li class="social_item"><a href="#" class="social_link social_link_fb"target="_blank">faceBook</a></li>
-                <li class="social_item"><a href="#" class="social_link social_link_li"target="_blank">linkedIn</a></li>   
+                <li class="social_item">
+                  <a href="#" class="social_link social_link_vk"target="_blank">vk</a>
+                </li>
+                <li class="social_item">
+                  <a href="#" class="social_link social_link_fb"target="_blank">faceBook</a>
+                </li>
+                <li class="social_item">
+                  <a href="#" class="social_link social_link_li"target="_blank">linkedIn</a>
+                </li>   
             </ul>
          </div>
-    </div>
-         
+    </div>         
             
  </footer>
 

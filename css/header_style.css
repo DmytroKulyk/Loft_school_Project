@@ -2,6 +2,7 @@ header{
 	border-bottom: 1px solid #e9e9e9;
 	text-align: center;
   height: 80px;
+  background-color: #fff;
 }
 
 /* =====Left Side ========*/
@@ -62,11 +63,6 @@ header{
   	float: right;
   }
  
- .clearfix::after{
-   content: "";
-   display: table;
-   clear: both;
- }
  .contacts_div{
   margin-top: 35px;
  }
