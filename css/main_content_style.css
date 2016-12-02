@@ -22,11 +22,6 @@
   height: 50px;
 }
 
-.container{
-	padding-left: 0.5em;
-	padding-right: 0.5em;
-}
-
 .content{
 	background: #f6f6f6;
 	margin-top: 0;
@@ -51,7 +46,6 @@
 }
 .menu_item{
 	  display: inline-block;
-    margin: 5px;
 }
 .menu_icon{
   color: #414141;
@@ -76,16 +70,35 @@
 }
 
 .title{
-	margin-top: 0;
+	margin-top: 25px;
+  margin-left: 20px;
 }
 
 /* ==== About Container ==== */
 .avatar1{
 	border-radius: 110px;
-	border: 2px solid #fff;
+	border: 5px solid #fff;
 }
 .about-img{
 	text-align: center;
+  margin-top: -12px;
+}
+
+.download{
+  text-align: right;
+  margin-right: 1px;
+  margin-top: 35px;
+}
+.download_link{
+  text-decoration: none;
+  color: #e85f61;
+  border: 2px solid #e85f61;
+  font-size: 14px;
+  border-radius: 18px;
+  padding: 10px 15px;
+}
+.download_icon{
+ margin-right: 12px;
 }
 
 /* ==================
@@ -95,8 +108,8 @@
 @media (min-width: 769px){
    
    .container{
-	 width: 80%;
-	 max-width: 1000px;
+	/*  width: 80%; */
+	 max-width: 940px;
 	 margin: 0 auto;
    
    }
@@ -104,17 +117,20 @@
    .sidebar{
    	float: left;
    	width: 200px;
+    margin-top: 23px;
+    margin-left: 20px;
    }
    
    .page-content{
    	float: left;
    	width: 700px;
+    margin-left: 20px;
    }
    
    .about_left{
    	float: left;
    	width: 300px;
-  	margin-top: 25px;
+  	margin-top: 40px;
    	
    }
   .about-right{
@@ -125,9 +141,11 @@
   .about_description{
   	height: 370px;
   	width: 380px;
-  	overflow: scroll;
-  	
-
+  	overflow: auto;
+  	margin-left: 18px;
+    margin-top: -20px;
+    line-height: 26px;
+    font-size: 18px;
   }
 
 /* ----- Navigation ----- */
@@ -136,7 +154,7 @@
   padding: 0;
 }
 .menu_item{
-  padding: 0 22px;
+ padding: 6px 29px;
 }
 .menu-title{
 	  font-size: 18px;
@@ -145,7 +163,7 @@
     line-height: 30px;
 }
 .menu_item_active{
-  padding: 0 24px;
+  padding: 11px 25px;
   border-right: 6px solid #33c1e3;
   border-bottom: 0px;
 }
