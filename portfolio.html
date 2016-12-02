@@ -1,16 +1,21 @@
-s<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Portfolio</title>
-  <link rel="stylesheet" href="css/header_style.css">
-  <link rel="stylesheet" href="css/footer_style.css">
-  <link rel="stylesheet" type="text/css" href="css/main_content_style.css">
-  <link rel="stylesheet" href="css/css/font-awesome.min.css">
-</head>
-<body>
 
+	<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<title>Portfolio</title>
+  <link rel="stylesheet" href="css/layer_css/normalize.css"/>  
+  <link rel="stylesheet" href="css/content_css/header_style.css"/>
+  <link rel="stylesheet" href="css/content_css/footer_style.css"/>
+  <link rel="stylesheet" type="text/css" href="css/content_css/main_content_style.css"/>
+  <link rel="stylesheet" href="css/content_css/font-awesome.min.css"/>
+  <link rel="stylesheet" href="css/content_css/font-sheet.css"/>
+  <link rel="stylesheet" href="css/content_css/portfolio_css.css"/>
+
+</head>
+
+<body>
   <div class="wrapper">
 <!-- Head of the page  with img & contacts-->
   	<header>    
@@ -77,77 +82,127 @@ s<!DOCTYPE html>
         </aside>
          <!-- ====== MAIN Right Side ======  -->   
       <main class="page-content">
-       <div>
+       <div class="portfolio">
 
-    	 <div>
+    	 <div class="portfolio-title">
     	  Portfolio
     	  </div>
     	
-    	 <div>
+    	 <div class="portfolio_block clearfix">
 <!-- ======Portfolio Item Imige/description===== -->
-    		<div>
+    	  <ul class="portfolio_items clearfix"> 
+          <li class="portfolio_item"> 
+            <div class="project">
     	
-    	      <div>
-    	      	<img src="img/content/project_1.png" alt="project_img">
-    	      </div>
+      	      <div class="project-photo">
+      	      	<img class="project_img" src="img/content/project_1.png" alt="project_img">
+      	      </div>
           
-	    	   <div>
-	    		<a href="#">Project Name</a>
-	    		<div>Project description</div>
-	    	   </div>
+    	    	  <div class="project-content">
+                <div class="project_title">
+        	    	  <a class="project_link" href="#">Project Name</a>
+                </div>
+        	    	<div class="project-description">Project description</div>
+                <div class="project-type">
+                  <span class="project-type-icon"><i class="fa fa-mobile" aria-hidden="true"></i></span>
+                  <span class="project-type-title">Application</span>
+                </div>
+    	    	  </div>
           
       	    </div>
-
+          </li> 
 <!-- === Another Project ===-->     
-      	    <div>
-    	
-    	      <div>
-    	      	<img src="img/content/project_2.png" alt="project_img">
-    	      </div>
+      	  <li class="portfolio_item"> 
+            <div class="project">
+      
+              <div class="project-photo">
+                <img class="project_img" src="img/content/project_2.png" alt="project_img">
+              </div>
           
-	    	   <div>
-	    		<a href="#">Project Name</a>
-	    		<div>Project description</div>
-	    	   </div>
+              <div class="project-content">
+                <div class="project_title">
+                  <a class="project_link" href="#">Project Name</a>
+                </div>
+                <div class="project-description">Project description</div>
+                <div class="project-type">
+                  <span class="project-type-icon"><i class="fa fa-desktop" aria-hidden="true"></i></span>
+                  <span class="project-type-title">Lending</span>
+                </div>
+              </div>
           
-      	    </div>
+            </div>
+          </li> 
             
 <!-- === Another Project ===-->    
-      	    <div>
-    	
-    	      <div>
-    	      	<img src="img/content/project_3.png" alt="project_img">
-    	      </div>
+      	  <li class="portfolio_item"> 
+            <div class="project">
+      
+              <div class="project-photo">
+                <img class="project_img" src="img/content/project_3.png" alt="project_img">
+              </div>
           
-	    	   <div>
-	    		<a href="#">Project Name</a>
-	    		<div>Project description</div>
-	    	   </div>
+              <div class="project-content">
+                <div class="project_title">
+                  <a class="project_link" href="#">Project Name</a>
+                </div>
+                <div class="project-description">Project description</div>
+                <div class="project-type">
+                  <span class="project-type-icon"><i class="fa fa-desktop" aria-hidden="true"></i></span>
+                  <span class="project-type-title">Corporate web page</span></div>
+              </div>
           
-      	    </div>
-
-<!-- === Another Project ===-->    
-      	    <div>
-    	
-    	      <div>
-    	      	<img src="img/content/project_4.png" alt="project_img">
-    	      </div>
-          
-	    	   <div>
-	    		<a href="#">Project Name</a>
-	    		<div>Project description</div>
-	    	   </div>
-
             </div>
-
-        </div>
-       </div>
-
+          </li> 
+<!-- === Another Project ===-->    
+      	  <li class="portfolio_item"> 
+            <div class="project">
+      
+              <div class="project-photo">
+                <img class="project_img" src="img/content/project_4.png" alt="project_img">
+              </div>
+          
+              <div class="project-content">
+                <div class="project_title">
+                  <a class="project_link" href="#">Project Name</a>
+                </div>
+                <div class="project-description">Project description</div>
+                <div class="project-type">
+                  <span class="project-type-icon"><i class="fa fa-desktop" aria-hidden="true"></i></span>
+                  <span class="project-type-title">Lending</span>
+                </div>
+              </div>
+          
+            </div>
+          </li> 
+          
+            <li class="portfolio_item"> 
+            <div class="project">
+      
+              <div class="project-photo">
+                <img class="project_img" src="img/content/project_5.png" alt="project_img">
+              </div>
+          
+              <div class="project-content">
+                <div class="project_title">
+                  <a class="project_link" href="#">Project Name</a>
+                </div>
+                <div class="project-description">Project description</div>
+                <div class="project-type">
+                  <span class="project-type-icon"><i class="fa fa-desktop" aria-hidden="true"></i></span>
+                  <span class="project-type-title">Lending</span>
+                </div>
+              </div>
+          
+            </div>
+          </li> 
+        </ul> 
+      </div>
+    </div>
+ 
      </main>
     </div>
   </section>
-
-  </div>
+</div>
 
 <!-- ========= Footer of the page =========== -->
 <footer>
