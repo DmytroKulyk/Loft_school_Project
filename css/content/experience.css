@@ -1,7 +1,9 @@
+
  .about-me_university-photo{
 	text-align: center;
 	overflow: hidden;
 	border-radius: 9px;
+	margin-top: 4px;
 }
 .university_photo{
 	display: block;
@@ -22,6 +24,7 @@
 	text-align: left;
 	position: relative;
 	margin-bottom: 25px;
+	box-sizing: border-box;
 }
 
 .career_block:after,
@@ -120,4 +123,5 @@
 }
 .career_list{
 	padding-left: 89px;
+    margin-top: -81px;
 }

@@ -13,9 +13,10 @@
     width: 220px;
     overflow: hidden;
     margin-left: 20px;
-    margin-bottom: 20px;
+    margin-bottom:17px;
     display: inline-block;
     vertical-align: top;
+    margin-top: 3px;
 }
 .portfolio_link{
 	display: block;
@@ -31,14 +32,14 @@
 	max-width: 100%;
 }
 .portfolio_desc{
-	padding: 20px;
+ padding: 16px 20px 14px 20px;
 
 }
 
 .portfolio_title{
 	font-size: 21px;
 	color: #33c1e3;
-	margin-bottom: 5px;
+	/* margin-bottom: 5px; */
 
 }
 
@@ -46,7 +47,7 @@
 	font-size: 14px;
 	color: #414141;
 	font-weight: 300;
-	margin-bottom: 15px;
+	margin-bottom: 12px;
 }
 
 .portfolio_type-icon, .portfolio_type-title{

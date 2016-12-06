@@ -15,7 +15,8 @@
 	font-weight: 500;
 	font-size: 35px;
 	color: #414141;
-	margin-bottom: 30px;
+	margin-bottom: 13px;
+    margin-top: -5px;
 }
 
 .btn{
@@ -26,6 +27,8 @@
 	font-weight: 600;
 	color: #e85f61;
 	text-decoration: none;
+	display: inline-block;
+	max-width: 150px;
 }
 .btn_text{
 	margin-left: 8px;
