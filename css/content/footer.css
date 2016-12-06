@@ -1,0 +1,56 @@
+.footer{
+	width: 100%;
+	margin-top: -50px;
+}
+
+.footer_left, .footer_right{
+	float: left;
+	width: 50%;	
+}
+
+.copyright{
+	color: #9c9c9c;
+	font-weight: 300;
+	font-size: 14px;
+	padding-top: 18px;
+}
+
+.footer_right{
+	text-align: right;
+	padding-top: 10px;
+}
+
+.social_item{
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 6px;
+}
+.social_link{
+	width: 32px;	
+	height: 32px;
+	display: block;
+	background: no-repeat center center;
+}
+
+.social_link_vk{
+background-image: url('../../img/icons/vk.png');
+}
+.social_link_vk:hover{
+background-image: url('../../img/icons/vk_hv.png');
+}
+.social_link_fb{
+background-image: url('../../img/icons/fb.png');
+}
+.social_link_fb:hover{
+background-image: url('../../img/icons/fb_hv.png');
+}
+.social_link_li{
+background-image: url('../../img/icons/tw.png');
+}
+.social_link_li:hover{
+background-image: url('../../img/icons/tw_hv.png');
+}
+
+/* ==================
+           Media Queries
+            ================== */

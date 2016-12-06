@@ -1,15 +1,11 @@
-.about_me-title{
-	font-size: 35px;
-	font-family: fira_sansmedium;
-	margin-top: 17px;
-    margin-bottom: 15px
-}
-
-.about-me_university-photo{
+ .about-me_university-photo{
 	text-align: center;
+	overflow: hidden;
+	border-radius: 9px;
 }
 .university_photo{
-	border-radius: 10px;
+	display: block;
+	max-width: 100%;
 }
 .career_list{
 	margin-top: 0;
@@ -119,7 +115,7 @@
 }
 .about_me-right{
     float: left;
-    width: 460px; 
+    width: 455px; 
     margin-top: 87px;   
 }
 .career_list{

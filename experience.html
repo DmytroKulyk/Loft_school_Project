@@ -4,38 +4,43 @@
 	<meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Experience</title>
-<link rel="stylesheet" href="css/layer_css/normalize.css">  
-<link rel="stylesheet" href="css/content_css/header_style.css">
-<link rel="stylesheet" href="css/content_css/footer_style.css">
-<link rel="stylesheet" type="text/css" href="css/content_css/main_content_style.css">
-<link rel="stylesheet" href="css/content_css/font-awesome.min.css">
-<link rel="stylesheet" href="css/content_css/experience_style.css">
-<link rel="stylesheet" href="css/content_css/font-sheet.css">
+
+<link rel="stylesheet" href="css/content/normalize.css"> 
+<link rel="stylesheet" href="css/layout/font-awesome.css">
+<link rel="stylesheet" href="css/layout/fonts.css">
+<link rel="stylesheet" type="text/css" href="css/layout/adjustment.css">
+
+<link rel="stylesheet" href="css/content/header.css">
+<link rel="stylesheet" href="css/content/footer.css">
+<link rel="stylesheet" href="css/content/nav.css">
+<link rel="stylesheet" href="css/content/experience.css">
+<link rel="stylesheet" href="css/content/content.css">
 
 </head>
 <body>
 
 <div class="wrapper">
-        <header class="clearfix">    
-          <div class="container">
-             <div class="header_left">
-                <div class="user">
-                    <div class="user_img">
-                      <img class="avatar" src="img/content/avatar1.jpg" alt="avatar" height="60" width="60">
-                    </div> 
+  <div class="maincontainer">
+        <header class="header clearfix">    
+      <div class="container">
+         <div class="header_left">
+            <div class="user">
+              <div class="user__avatar">
+                <img class="user__avatar-pic" src="img/content/avatar1.jpg" alt="avatar" height="60" width="60">
+              </div> 
 
-                    <div class="user_name">
-                     Dmytro Kulyk
-                    </div>
-                </div> 
-            </div>
-
-            <div class="header_right">
-               <div class="contacts_div">
-                <a class="contacts" class="contacts" href="#">Contacts</a></div>
+              <div class="user_name">
+               Dmytro Kulyk
               </div>
-          </div>    
-        </header>	
+            </div> 
+          </div>
+
+          <div class="header_right">
+            <div class="contacts_div">
+              <a class="contacts" class="contacts" href="#">Contacts</a></div>
+            </div>
+      </div>  
+    </header>
 
 <!-- =====Main content====== -->
 
@@ -49,26 +54,22 @@
   
               <li class="menu_item">
                 <a href="index.html" class="menu_link">
-                  <span class="menu_icon">
-                    <i class="fa fa-user-secret" aria-hidden="true"></i>
-                  </span>
+                  <i class="fa fa-user-secret menu_icon" aria-hidden="true"></i>
                   <span class="menu-title">About</span>
                 </a>
               </li>
 
-              <li class="menu_item menu_item_active">
+              <li class="menu_item menu__item_active">
                 <a href="experience.html" class="menu_link">
-                  <span class="menu_icon_active">
-                    <i class="fa fa-rocket" aria-hidden="true"></i>
-                  </span>
-                  <span class="menu-title_active">Experience</span>
+                  
+                    <i class="fa fa-rocket menu_icon" aria-hidden="true"></i>
+                  
+                  <span class="menu-title">Experience</span>
                 </a>
               </li>
               <li class="menu_item">
-                <a href="portfolio.html" class="menu_link">
-                  <span class="menu_icon">
-                    <i class="fa fa-briefcase" aria-hidden="true"></i>
-                  </span>
+                <a href="portfolio.html" class="menu_link">     
+                  <i class="fa fa-briefcase menu_icon" aria-hidden="true"></i>
                   <span class="menu-title">Portfolio</span>
                 </a>
               </li>
@@ -83,11 +84,13 @@
         </aside>
          <!-- ====== MAIN Right Side ======  -->   
       <main class="page-content">
+
+       
         <div class="about_me clearfix">
 <!--  University photo / left side -->
         		<div class="about_me-left">
               
-              <h1 class="about_me-title">About Me</h1>
+              <h1 class="content-title">About Me</h1>
 
               <div class="about-me_university-photo">
        			   <img src="img/content/university.png" alt="university" class="university_photo" height="220px" width="220px">
@@ -171,9 +174,10 @@
       </main>
     </div>
   </section>
+ </div>
 </div>
 <!-- ========= Footer of the page =========== -->
-<footer>
+<footer class="footer">
 
     <div class="container clearfix">
           <div class="footer_left">      
@@ -184,13 +188,13 @@
          <div class="footer_right">
             <ul class="socials">
                 <li class="social_item">
-                  <a href="#" class="social_link social_link_vk"target="_blank">vk</a>
+                  <a href="#" class="social_link social_link_vk"target="_blank"></a>
                 </li>
                 <li class="social_item">
-                  <a href="#" class="social_link social_link_fb"target="_blank">faceBook</a>
+                  <a href="#" class="social_link social_link_fb"target="_blank"></a>
                 </li>
                 <li class="social_item">
-                  <a href="#" class="social_link social_link_li"target="_blank">linkedIn</a>
+                  <a href="#" class="social_link social_link_li"target="_blank"></a>
                 </li>   
             </ul>
          </div>
