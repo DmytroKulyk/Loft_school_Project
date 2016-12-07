@@ -53,7 +53,8 @@
 .career_item:hover .career_block{
 	background: #33c1e3;
 }
-.career_item:hover .career_ocucupation, .career_item:hover .career_time{
+.career_item:hover .career_occupation, .career_item:hover .career_time,
+.career_item:hover .career_title{
 	color: #fff;
 }
 .career_item:hover .career_year{
