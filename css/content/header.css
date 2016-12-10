@@ -51,17 +51,12 @@
 	border-bottom: 1px dashed #32c3e5;
 	font-weight: 600;
 }
-
-
-/* ==================
-           Media Queries
-            ================== */
-
-@media (min-width: 769px){
-   
-  
-  
+.contact_icon-span{
+  display: none;
 }
+
+
+      
 
 
 

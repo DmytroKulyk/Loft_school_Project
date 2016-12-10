@@ -1,0 +1,68 @@
+@media  screen and (max-width: 769px) {
+   .wrapper{
+		min-width: 480px;
+	}
+   .container{
+   	margin: 0 auto;
+		max-width: 480px;
+	}
+.header_right{
+	padding-top: 20px;
+}
+.contacts{
+	display: none;
+}
+.contact_icon-span{
+	display: inline-block;
+	color: #32c3e5;
+	padding-right: 20px;
+}
+
+.sidebar{
+   width: 480px;
+}
+  .page-content{
+  	float: none;
+  	width: 100%;
+  	margin: 0;
+  }
+
+  // ======= About Page
+   .about_left, .about_right{
+	float: none;
+}
+
+.about_left{
+	min-width: 100%;
+	margin-bottom: 15px;
+}
+.content-title{
+	text-align: center;
+	width: 480px;
+}
+.about_text {
+	width: 480px;
+}
+.about_download {
+	text-align: center;
+	width: 480px;
+}
+
+.about-me_university-photo{
+	margin-bottom: 25px;
+}
+.university_photo{
+	margin: 0 auto;
+}
+  .footer{
+  height: 100px;
+  min-width: auto;
+  }
+   .footer_left, .footer_right{
+	float: none;
+	text-align: center;
+	width: 100%;
+}
+ 
+
+}
