@@ -6,9 +6,10 @@
 	margin-top: 4px;
 	position:relative;
     z-index:1;
+    height: 220px;
 }
 .university_photo{
-	display: block;
+	display: inline-block;
 	max-width: 100%;
 	-webkit-transition:all .5s ease;
             transition:all .5s ease; 
@@ -134,3 +135,4 @@
 	padding-left: 89px;
     margin-top: -81px;
 }
+	}

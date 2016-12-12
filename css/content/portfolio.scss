@@ -3,7 +3,7 @@
   font-size: 0;
 }
 
-..portfolio_list * {
+.portfolio_list * {
    font-size: 14px;
 }
 .portfolio_item{
@@ -26,7 +26,18 @@
 .portfolio_link:hover .portfolio_title{
 	color: #e85f61;
 }
-
+.portfolio_pic{
+	height: 180px;
+	background-position:  center center; 
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+.portfolio_pic-img{
+	position: absolute;
+	top: 0;
+	left: -9999px;
+}
 .portfolio_pic-elem{
 	display: block;
 	max-width: 100%;

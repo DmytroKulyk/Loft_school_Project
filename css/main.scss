@@ -1,5 +1,26 @@
-@import url(media/desktop.scss);
-@import url(media/laptop.scss);
-@import url(media/phones.scss);
-@import url(media/tablets.scss);
+
+
+// === layots
+@import "layout/adjustment";
+@import "layout/font-awesome";
+@import "layout/fonts";
+@import "layout/normalize";
+
+// === sections
+
+@import "content/about";
+@import "content/content";
+@import "content/experience";
+@import "content/footer";
+@import "content/greeting";
+@import "content/header";
+@import "content/nav";
+@import "content/portfolio";
+
+// === media
+
+@import "media/desktop";
+@import "media/laptop";
+@import "media/phones";
+@import "media/tablets";
 
