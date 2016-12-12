@@ -2908,6 +2908,52 @@ th {
   top: 50%;
   bottom: -25px; }
 
+.career_item {
+  -webkit-animation: slide_In 1s;
+  animation: slide_In 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both; }
+
+@-webkit-keyframes slide_In {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(50px);
+    transform: translateX(50px); }
+  50% {
+    opacity: .5;
+    -webkit-transform: translateX(-50px);
+    transform: translateX(-50px); }
+  100% {
+    opacity: 1; } }
+
+@keyframes slide_In {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(50px);
+    transform: translateX(50px); }
+  50% {
+    opacity: .5;
+    -webkit-transform: translateX(-50px);
+    transform: translateX(-50px); }
+  100% {
+    opacity: 1; } }
+
+.career_item:nth-child(1) {
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s; }
+
+.career_item:nth-child(2) {
+  -webkit-animation-delay: 0.5s;
+  animation-delay: 0.5s; }
+
+.career_item:nth-child(3) {
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s; }
+
+.career_item:nth-child(4) {
+  -webkit-animation-delay: 1.5s;
+  animation-delay: 1.5s; }
+
 .career_item:hover .career_block {
   background: #33c1e3; }
 
@@ -3229,6 +3275,60 @@ html, body {
   vertical-align: top;
   margin-top: 3px; }
 
+.portfolio_item {
+  -webkit-animation: fall_in 1s;
+  animation: fall_in 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both; }
+
+@-webkit-keyframes fall_in {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(50px);
+    transform: translateY(50px); }
+  50% {
+    opacity: .5;
+    -webkit-transform: translateY(-50px);
+    transform: translateY(-50px); }
+  100% {
+    opacity: 1; } }
+
+@keyframes fall_in {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(50px);
+    transform: translateY(50px); }
+  50% {
+    opacity: .5;
+    -webkit-transform: translateY(-50px);
+    transform: translateY(-50px); }
+  100% {
+    opacity: 1; } }
+
+.portfolio_item:nth-child(1) {
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s; }
+
+.portfolio_item:nth-child(2) {
+  -webkit-animation-delay: 0.5s;
+  animation-delay: 0.5s; }
+
+.portfolio_item:nth-child(3) {
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s; }
+
+.portfolio_item:nth-child(4) {
+  -webkit-animation-delay: 1.5s;
+  animation-delay: 1.5s; }
+
+.portfolio_item:nth-child(5) {
+  -webkit-animation-delay: 2s;
+  animation-delay: 2s; }
+
+.portfolio_item:nth-child(6) {
+  -webkit-animation-delay: 2.5s;
+  animation-delay: 2.5s; }
+
 .portfolio_link {
   display: block;
   text-decoration: none; }
@@ -3317,6 +3417,8 @@ html, body {
     max-width: 150px;
     font-size: 14px;
     margin-left: 14px; }
+  .menu {
+    text-align: center; }
   .menu_item {
     margin-right: 10px; }
   .menu_link {
@@ -3327,7 +3429,8 @@ html, body {
     height: 140px;
     width: 140px; }
   .about_text {
-    width: 100%; }
+    width: 100%;
+    height: 100%; }
   .portfolio_list {
     margin-left: 0; }
   .portfolio_item {
@@ -3352,6 +3455,38 @@ html, body {
   .contact_icon-span {
     display: inline;
     color: #32c3e5; }
+  .contact_icon:hover {
+    -webkit-animation: shake 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+    animation: shake 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    color: #e85f61; }
+  @-webkit-keyframes shake {
+    10%, 90% {
+      -webkit-transform: translate3d(-1px, 0, 0);
+      transform: translate3d(-1px, 0, 0); }
+    20%, 80% {
+      -webkit-transform: translate3d(2px, 0, 0);
+      transform: translate3d(2px, 0, 0); }
+    30%, 50%, 70% {
+      -webkit-transform: translate3d(-4px, 0, 0);
+      transform: translate3d(-4px, 0, 0); }
+    40%, 60% {
+      -webkit-transform: translate3d(4px, 0, 0);
+      transform: translate3d(4px, 0, 0); } }
+  @keyframes shake {
+    10%, 90% {
+      -webkit-transform: translate3d(-1px, 0, 0);
+      transform: translate3d(-1px, 0, 0); }
+    20%, 80% {
+      -webkit-transform: translate3d(2px, 0, 0);
+      transform: translate3d(2px, 0, 0); }
+    30%, 50%, 70% {
+      -webkit-transform: translate3d(-4px, 0, 0);
+      transform: translate3d(-4px, 0, 0); }
+    40%, 60% {
+      -webkit-transform: translate3d(4px, 0, 0);
+      transform: translate3d(4px, 0, 0); } }
   .page-content {
     float: none;
     width: 100%;

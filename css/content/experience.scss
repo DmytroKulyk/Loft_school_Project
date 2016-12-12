@@ -59,6 +59,31 @@
   bottom: -25px;
 }
 
+.career_item{
+   animation: slide_In 1s ;
+   animation-fill-mode: both;
+}
+@keyframes slide_In {
+  0%   { opacity: 0;
+         transform: translateX(50px); }
+  50%   {opacity: .5;
+  	     transform: translateX(-50px);}
+  100% { opacity: 1; }
+}
+.career_item:nth-child(1){
+   animation-delay: 0s
+}
+.career_item:nth-child(2){
+   animation-delay: 0.5s
+}
+.career_item:nth-child(3){
+   animation-delay: 1s
+}
+.career_item:nth-child(4){
+   animation-delay: 1.5s
+}
+
+
 .career_item:hover .career_block{
 	background: #33c1e3;
 }
