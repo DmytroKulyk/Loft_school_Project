@@ -3408,7 +3408,7 @@ html, body {
 
 @media screen and (max-width: 480px) {
   .container {
-    width: 95%; }
+    max-width: 95%; }
   .header_left {
     width: 80%; }
   .header_right {
@@ -3435,7 +3435,7 @@ html, body {
     margin-left: 0; }
   .portfolio_item {
     display: block;
-    width: 100%;
+    min-width: 100%;
     margin-left: 0; }
   .footer_left {
     padding-top: 10px; }
