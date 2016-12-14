@@ -44,22 +44,20 @@
 .contacts_div{
   display: inline-block;
   position: relative;
-
+      
       &:hover .dropdown_contacts{
-         display: inline-block;
-         
+         display: inline-block;     
     }
+      &:hover .contacts{
+        color: #e85f61; 
+      }
 }
-
 
 .contacts{
 	color: #32c3e5;
 	text-decoration: none;
 	border-bottom: 1px dashed #32c3e5;
 	font-weight: 600;
-}
-.contacts:hover{
-  color: #e85f61;
 }
 
 .contact_icon-span{

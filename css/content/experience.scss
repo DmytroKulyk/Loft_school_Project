@@ -13,11 +13,9 @@
 	width: 227px;
 	height: 227px;
 	max-width: 100%;
-	-webkit-transition:all .5s ease;
-            transition:all .5s ease; 
+    transition:all .5s ease; 
 }
 .about-me_university-photo:hover .university_photo{
-  -webkit-transform:scale(1.1);
   transform:scale(1.1);
 }
 .career_list{
