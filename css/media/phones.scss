@@ -85,8 +85,10 @@
 
 .portfolio_item{
   display: block;
-   min-width: 99%;
-   margin-left: 0;
+    max-width: 300px; 
+    min-width: 300px;
+    min-height: 345px;
+      margin: 0 auto;
   margin-bottom: 22px;
 }
 .portfolio_pic {
