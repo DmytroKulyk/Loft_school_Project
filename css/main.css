@@ -2856,10 +2856,12 @@ th {
   margin-top: 4px;
   position: relative;
   z-index: 1;
-  height: 220px; }
+  height: 227px; }
 
 .university_photo {
   display: inline-block;
+  width: 227px;
+  height: 227px;
   max-width: 100%;
   -webkit-transition: all .5s ease;
   transition: all .5s ease; }
@@ -3382,14 +3384,18 @@ html, body {
   margin-left: 5px; }
 
 @media screen and (max-width: 992px) {
+  .maincontainer {
+    padding-bottom: 30px; }
   .container {
-    width: 730px; }
+    max-width: 730px; }
   .sidebar, .page-content {
     float: none;
     width: 100%;
     margin-left: 0; }
   .sidebar {
     margin-bottom: 35px; }
+  .sidebar_portfolio {
+    margin-bottom: 16px; }
   .menu_item {
     display: inline-block;
     vertical-align: middle;
@@ -3397,54 +3403,46 @@ html, body {
   .menu_link {
     text-align: left;
     border: none;
-    padding-right: 0; }
+    padding: 0; }
   .about_left {
-    width: 30%; }
+    width: 35%;
+    margin-left: -4px; }
   .about_img {
     height: 165px;
     width: 165px; }
   .about_right {
-    width: 70%; } }
-
-@media screen and (max-width: 480px) {
-  .container {
-    max-width: 95%; }
-  .header_left {
-    width: 80%; }
-  .header_right {
-    width: 20%; }
-  .user_name {
-    max-width: 150px;
-    font-size: 14px;
-    margin-left: 14px; }
-  .menu {
-    text-align: center; }
-  .menu_item {
-    margin-right: 10px; }
-  .menu_link {
-    font-size: 14px; }
-  .menu_icon {
-    display: none; }
-  .about_img {
-    height: 140px;
-    width: 140px; }
+    width: 65%; }
+  .content-title {
+    margin-top: 0px; }
+  .about_me-left {
+    width: 231px;
+    margin-right: 43px; }
+  .career_block {
+    width: 355px;
+    padding: 15px 10px 14px 20px;
+    margin-bottom: 19px; }
+  .career_title, .career_occupation, .career_time {
+    margin-bottom: 0; }
   .about_text {
-    width: 100%;
-    height: 100%; }
-  .portfolio_list {
-    margin-left: 0; }
+    margin-right: 31px;
+    height: 378px;
+    margin-bottom: 42px; }
+  .btn {
+    margin-right: 65px; }
   .portfolio_item {
-    display: block;
-    min-width: 100%;
-    margin-left: 0; }
-  .footer_left {
-    padding-top: 10px; }
-  .footer_right {
-    padding-top: 5px; } }
+    width: 227px;
+    margin-bottom: 17px; }
+  .portfolio-title_content {
+    margin-bottom: 9px; }
+  .portfolio_pic {
+    height: 178px; }
+  .portfolio_desc {
+    padding: 16px 20px 20px 20px; }
+  padding-bottom: 1px; }
 
 @media screen and (max-width: 768px) {
   .container {
-    width: 480px; }
+    max-width: 480px; }
   .header_right {
     width: 30%;
     padding-top: 20px; }
@@ -3487,35 +3485,53 @@ html, body {
     40%, 60% {
       -webkit-transform: translate3d(4px, 0, 0);
       transform: translate3d(4px, 0, 0); } }
+  .menu_item {
+    margin-right: 30px; }
+  .sidebar {
+    margin-bottom: 38px; }
   .page-content {
     float: none;
     width: 100%;
-    margin: 0; }
+    margin: 0;
+    margin-left: 18px; }
   .menu-title {
     margin-left: 5px; }
   .about_left, .about_right {
     float: none;
     width: 100%; }
+  .about_right {
+    margin-left: 7px; }
+  .about_text {
+    margin-right: 15px;
+    margin-bottom: 21px; }
   .content-title {
     text-align: center;
-    margin-bottom: 15px; }
+    margin-bottom: 12px; }
   .about_download {
-    text-align: center; }
-  .about_me-left, .about_me-left {
+    text-align: center;
+    margin-bottom: 39px; }
+  .btn {
+    margin-right: 49px; }
+  .about_me-right, .about_me-left {
     float: none;
     width: 100%; }
   .about_me-left {
-    margin-bottom: 20px;
+    margin-bottom: 12px;
     text-align: center; }
   .about-me_university-photo {
-    display: inline-block; }
+    display: inline-block;
+    margin-right: 39px; }
   .career_item {
     padding: 0; }
   .career_block {
     display: block;
-    width: 100%; }
+    width: 92%;
+    padding: 17px 10px 14px 20px;
+    margin-bottom: 18px; }
     .career_block:after, .career_block:before {
       display: none; }
+  .career_title, .career_occupation, .career_time {
+    margin-bottom: 3px; }
   .career_title {
     font-size: 18px; }
   .career_occupation, .career_time {
@@ -3531,7 +3547,89 @@ html, body {
     float: none;
     text-align: center;
     width: 100%; }
+  .social_item {
+    margin-left: 1px; }
   .wrapper:after {
-    height: 95px; } }
+    height: 95px; }
+  .container .sidebar-portfolio {
+    margin-bottom: 15px; } }
 
-/*# sourceMappingURL=main.css.map */
+@media screen and (max-width: 480px) {
+  .container {
+    max-width: 95%; }
+  .header {
+    margin-bottom: 14px; }
+  .header_left {
+    width: 80%; }
+  .header_right {
+    width: 20%;
+    text-align: left;
+    font-size: 20px; }
+  .contact_icon {
+    margin-left: 25px; }
+  .user_name {
+    max-width: 150px;
+    font-size: 14px;
+    margin-left: 14px; }
+  .sidebar {
+    margin-bottom: 17px; }
+  .sidebar_portfolio {
+    margin-bottom: 27px; }
+  .experience_sidebar {
+    margin-bottom: 11px; }
+  .menu {
+    text-align: center; }
+  .menu_item {
+    margin-right: 10px; }
+  .menu_link {
+    font-size: 14px; }
+  .menu_icon {
+    display: none; }
+  .about_right {
+    width: 100%; }
+  .about_img {
+    height: 140px;
+    width: 140px; }
+  .about_text {
+    width: 98%;
+    height: 100%; }
+  .content-title {
+    text-align: center; }
+  .experience_title {
+    margin-bottom: 0; }
+  .about-me_university-photo {
+    margin-right: 8px;
+    width: 219px;
+    height: 219px; }
+  .career_block {
+    width: 100%;
+    padding: 15px 10px 14px 20px;
+    margin-bottom: 18px; }
+  .page-content {
+    margin-left: 0; }
+  .portfolio-title_content {
+    margin-bottom: 16px; }
+  .portfolio_list {
+    margin-left: 0; }
+  .portfolio_item {
+    display: block;
+    min-width: 99%;
+    margin-left: 0;
+    margin-bottom: 22px; }
+  .portfolio_pic {
+    height: 234px; }
+  .portfolio_desc {
+    padding: 12px 20px 11px 20px; }
+  .portfolio_title {
+    font-size: 24px; }
+  .portfolio_work-desc {
+    font-size: 16px;
+    margin-bottom: 10px; }
+  .portfolio_type {
+    font-size: 16px; }
+  .footer {
+    height: 110px; }
+  .footer_left {
+    padding-top: 10px; }
+  .footer_right {
+    padding-top: 5px; } }

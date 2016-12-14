@@ -1,10 +1,13 @@
-@media  screen and (max-width: 992px) {
-	// .wrapper{
-	// 	min-width: 768px;
-	// }
+@media screen and (max-width: 992px){
+
+
+  .maincontainer {
+    padding-bottom: 30px;
+}
 	.container{
-		width: 730px;
+		max-width: 730px;
 	}
+
 	.sidebar, .page-content{
 	float: none;
     width: 100%;
@@ -13,6 +16,9 @@
    .sidebar{
    	margin-bottom: 35px;
    }
+   .sidebar_portfolio{
+   	 margin-bottom: 16px;
+   }
 	.menu_item{
 		display: inline-block;
 		vertical-align: middle;
@@ -20,20 +26,60 @@
 	}
 	.menu_link{
 		text-align: left;
-		// border-right: transparent;
-		// border-bottom: 6px solid transparent;
+		
 		border: none;
-		padding-right: 0;
+		padding: 0;
 	}
 
 	.about_left{
-      width: 30%;
+      width: 35%;
+      margin-left: -4px;
 	}
 	.about_img{
 		height: 165px;
 		width: 165px;
 	}
     .about_right{
-      width: 70%;
+      width: 65%;
     }
+    .content-title{
+       margin-top: 0px;
+    }
+    .about_me-left{
+    	width: 231px;
+    	margin-right: 43px;
+    }
+    .career_block{
+    	width: 355px;
+    	padding: 15px 10px 14px 20px;
+       margin-bottom: 19px;
+    }
+    .career_title, .career_occupation, .career_time{
+    	margin-bottom: 0;
+    }
+    .about_text{
+    margin-right: 31px;
+    height: 378px;
+    margin-bottom: 42px;
+    }
+    .btn{
+    margin-right: 65px;
+    }
+    .portfolio_item{
+    	width: 227px;
+        margin-bottom: 17px;
+    }
+    .portfolio-title_content{
+    	margin-bottom: 9px;
+    }
+    .portfolio_pic {
+    height: 178px;
+    }
+    .portfolio_desc {
+    padding: 16px 20px 20px 20px;
+    }
+      padding-bottom: 1px;
+
+ 
+
 }

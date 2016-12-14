@@ -1,19 +1,36 @@
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 480px){
  
    .container{
     max-width: 95%;
+  }
+  .header{
+        margin-bottom: 14px;
   }
   .header_left{
     width: 80%;
   }
   .header_right{
     width: 20%;
+    text-align: left;
+    font-size: 20px;
+  }
+  .contact_icon{
+        margin-left: 25px;
   }
   .user_name{
     max-width: 150px;
     font-size: 14px;
     margin-left: 14px;
   }
+   .sidebar{
+    margin-bottom: 17px;
+   }
+   .sidebar_portfolio{
+    margin-bottom: 27px;
+   }
+   .experience_sidebar{
+      margin-bottom: 11px;
+   }
   .menu{
     text-align: center;
   }
@@ -26,24 +43,72 @@
   .menu_icon{
     display: none;
   }
+ 
+.about_right {
+    width: 100%;
+}
   .about_img{
     height: 140px;
     width: 140px;
   }
   .about_text {
-    width: 100%;
+    width: 98%;
     height: 100%; 
 }
-
+.content-title{
+  text-align: center;
+}
+.experience_title{
+  margin-bottom: 0;
+}
+.about-me_university-photo {
+    margin-right: 8px;
+    width: 219px;
+    height: 219px;
+}
+.career_block {
+    
+    width: 100%;
+    padding: 15px 10px 14px 20px;
+    margin-bottom: 18px;
+}
+.page-content {
+   margin-left: 0; 
+ }
+.portfolio-title_content{
+  margin-bottom: 16px;
+}
 .portfolio_list{
   margin-left: 0;
 }
 
 .portfolio_item{
   display: block;
-   min-width: 100%;
+   min-width: 99%;
    margin-left: 0;
+  margin-bottom: 22px;
 }
+.portfolio_pic {
+    height: 234px;
+}
+
+.portfolio_desc {
+    padding: 12px 20px 11px 20px;
+}
+.portfolio_title {
+  font-size: 24px;
+}
+.portfolio_work-desc {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.portfolio_type {  
+    font-size: 16px;
+}
+
+.footer {
+    height: 110px;
+    }
   .footer_left{
     padding-top: 10px;
   }
