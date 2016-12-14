@@ -17,12 +17,12 @@
     display: inline-block;
     vertical-align: top;
     margin-top: 3px;
+    animation: fall_in 1s ;
+    animation-fill-mode: both;
+    
 }
 
-.portfolio_item{
-   animation: fall_in 1s ;
-   animation-fill-mode: both;
-}
+
 @keyframes fall_in {
   0%   { opacity: 0;
          transform: translateY(50px); }
@@ -50,18 +50,23 @@
 }
 .portfolio_link{
 	display: block;
-	text-decoration: none;
+	text-decoration: none;	
 }
 
 .portfolio_link:hover .portfolio_title{
 	color: #e85f61;
 }
+
 .portfolio_pic{
 	height: 180px;
 	background-position:  center center; 
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: 100% 100%;
 	position: relative;
+	transition: .3s ease-in-out;
+}
+.portfolio_pic:hover {
+	transform: scale(1.06);
 }
 .portfolio_pic-img{
 	position: absolute;

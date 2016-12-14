@@ -43,7 +43,14 @@
 
 .contacts_div{
   display: inline-block;
+  position: relative;
+
+      &:hover .dropdown_contacts{
+         display: inline-block;
+         
+    }
 }
+
 
 .contacts{
 	color: #32c3e5;
@@ -51,6 +58,10 @@
 	border-bottom: 1px dashed #32c3e5;
 	font-weight: 600;
 }
+.contacts:hover{
+  color: #e85f61;
+}
+
 .contact_icon-span{
   display: none;
 }

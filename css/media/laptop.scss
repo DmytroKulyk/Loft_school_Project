@@ -7,7 +7,13 @@
 	.container{
 		max-width: 730px;
 	}
-
+  .dropdown_contacts{
+   left: -40%;
+   // transform: translateX(95%);
+ }
+.triangle{
+  left: 75%;
+}
 	.sidebar, .page-content{
 	float: none;
     width: 100%;

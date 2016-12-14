@@ -2810,6 +2810,68 @@ th {
 .about_download {
   text-align: right; }
 
+.dropdown_contacts {
+  min-width: 190px;
+  border: 1px solid #dedede;
+  border-radius: 10px;
+  position: absolute;
+  top: 42px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  background: #fff;
+  display: none;
+  z-index: 1000; }
+  .dropdown_contacts:before {
+    content: "";
+    display: block;
+    height: 15px;
+    left: 0;
+    right: 0;
+    top: -16px;
+    position: absolute; }
+
+.triangle {
+  border-top: 0px solid transparent;
+  border-right: 15px solid transparent;
+  border-bottom: 15px solid #dedede;
+  border-left: 15px solid transparent;
+  width: 0;
+  height: 0;
+  bottom: 100%;
+  position: absolute;
+  left: 50%;
+  margin-left: -15px; }
+  .triangle:before {
+    content: "";
+    display: block;
+    border-top: 0px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 15px solid #fff;
+    border-left: 15px solid transparent;
+    width: 0;
+    height: 0;
+    position: absolute;
+    left: -15px;
+    bottom: -16px; }
+
+.dropdown_menu-item {
+  font-size: 18px;
+  padding: 10px; }
+
+.dropdown_menu-link {
+  white-space: nowrap;
+  text-align: left;
+  display: block;
+  text-decoration: none;
+  color: #414141;
+  font-size: 18px;
+  font-weight: 300; }
+
+.dropdown_menu-icon {
+  color: #33c1e3; }
+
 .sidebar, .page-content {
   float: left; }
 
@@ -3224,13 +3286,19 @@ html, body {
 
 /*====Right Side===== */
 .contacts_div {
-  display: inline-block; }
+  display: inline-block;
+  position: relative; }
+  .contacts_div:hover .dropdown_contacts {
+    display: inline-block; }
 
 .contacts {
   color: #32c3e5;
   text-decoration: none;
   border-bottom: 1px dashed #32c3e5;
   font-weight: 600; }
+
+.contacts:hover {
+  color: #e85f61; }
 
 .contact_icon-span {
   display: none; }
@@ -3275,9 +3343,7 @@ html, body {
   margin-bottom: 17px;
   display: inline-block;
   vertical-align: top;
-  margin-top: 3px; }
-
-.portfolio_item {
+  margin-top: 3px;
   -webkit-animation: fall_in 1s;
   animation: fall_in 1s;
   -webkit-animation-fill-mode: both;
@@ -3342,8 +3408,14 @@ html, body {
   height: 180px;
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: cover;
-  position: relative; }
+  background-size: 100% 100%;
+  position: relative;
+  transition: .3s ease-in-out; }
+
+.portfolio_pic:hover {
+  -webkit-transform: scale(1.06);
+  -ms-transform: scale(1.06);
+  transform: scale(1.06); }
 
 .portfolio_pic-img {
   position: absolute;
@@ -3388,6 +3460,10 @@ html, body {
     padding-bottom: 30px; }
   .container {
     max-width: 730px; }
+  .dropdown_contacts {
+    left: -40%; }
+  .triangle {
+    left: 75%; }
   .sidebar, .page-content {
     float: none;
     width: 100%;
@@ -3485,6 +3561,10 @@ html, body {
     40%, 60% {
       -webkit-transform: translate3d(4px, 0, 0);
       transform: translate3d(4px, 0, 0); } }
+  .dropdown_contacts {
+    left: -260%; }
+  .triangle {
+    left: 90%; }
   .menu_item {
     margin-right: 30px; }
   .sidebar {
@@ -3567,6 +3647,8 @@ html, body {
     font-size: 20px; }
   .contact_icon {
     margin-left: 25px; }
+  .dropdown_contacts {
+    left: -100%; }
   .user_name {
     max-width: 150px;
     font-size: 14px;

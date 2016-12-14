@@ -17,6 +17,12 @@
   .contact_icon{
         margin-left: 25px;
   }
+  
+  .dropdown_contacts{
+   left: -100%;
+   // transform: translateX(95%);
+ }
+
   .user_name{
     max-width: 150px;
     font-size: 14px;
