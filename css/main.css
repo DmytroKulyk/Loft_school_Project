@@ -2873,9 +2873,14 @@ th {
 .dropdown_menu-item {
   font-size: 18px;
   padding: 10px;
-  border-bottom: 1px solid #dedede; }
+  border-bottom: 1px solid #dedede;
+  overflow: hidden;
+  border-left: 3px solid transparent;
+  padding-left: 4px; }
   .dropdown_menu-item:last-child {
     border-bottom: 1px solid transparent; }
+  .dropdown_menu-item:hover {
+    border-left: 3px solid #33c1e3; }
 
 .dropdown_menu-link {
   white-space: nowrap;
@@ -3124,7 +3129,7 @@ th {
 .social_item {
   display: inline-block;
   vertical-align: middle;
-  margin-left: 6px; }
+  margin-left: 7px; }
 
 .social_link {
   width: 32px;
@@ -3132,27 +3137,26 @@ th {
   display: block;
   background: no-repeat center center; }
 
-.social_link_vk {
-  background-image: url("../img/icons/vk.png"); }
+.icon-fb, .icon-vkon, .icon-in {
+  line-height: 2rem;
+  display: inline-block;
+  width: 2rem;
+  height: 2rem;
+  vertical-align: middle;
+  fill: #9c9c9c;
+  fill-opacity: .75; }
+  .icon-fb:hover, .icon-vkon:hover, .icon-in:hover {
+    fill-opacity: 1; }
 
-.social_link_vk:hover {
-  background-image: url("../img/icons/vk_hv.png"); }
+.icon-fb:hover {
+  fill: #4463a6; }
 
-.social_link_fb {
-  background-image: url("../img/icons/fb.png"); }
+.icon-vkon:hover {
+  fill: #5d99c3; }
 
-.social_link_fb:hover {
-  background-image: url("../img/icons/fb_hv.png"); }
+.icon-in:hover {
+  fill: #007bb5; }
 
-.social_link_li {
-  background-image: url("../img/icons/tw.png"); }
-
-.social_link_li:hover {
-  background-image: url("../img/icons/tw_hv.png"); }
-
-/* ==================
-           Media Queries
-            ================== */
 html, body {
   height: 100%;
   margin: 0;
@@ -3727,6 +3731,8 @@ html, body {
     margin-bottom: 10px; }
   .portfolio_type {
     font-size: 16px; }
+  .btn {
+    margin-left: 0; }
   .footer {
     height: 110px; }
   .footer_left {

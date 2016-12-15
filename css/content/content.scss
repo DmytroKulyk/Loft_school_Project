@@ -57,8 +57,14 @@
 	font-size: 18px;
 	padding: 10px;
   border-bottom: 1px solid #dedede;
+  overflow: hidden;
    &:last-child{
      border-bottom: 1px solid transparent;
+   }
+   border-left: 3px solid transparent;
+  padding-left: 4px;
+   &:hover{
+    border-left: 3px solid #33c1e3;
    }
 }
 
