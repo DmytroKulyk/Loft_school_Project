@@ -50,13 +50,19 @@
 }
 .portfolio_link{
 	display: block;
-	text-decoration: none;	
-}
-
-.portfolio_link:hover .portfolio_title{
+	text-decoration: none;
+	&:hover	.portfolio_title{
 	color: #e85f61;
+   }
+   &:hover .portfolio_pic{
+   	  transform: scale(1.06);
+   }
 }
 
+
+.portfolio_img_wrap{
+	overflow: hidden;
+}
 .portfolio_pic{
 	height: 180px;
 	background-position:  center center; 
@@ -65,9 +71,7 @@
 	position: relative;
 	transition: .3s ease-in-out;
 }
-.portfolio_pic:hover {
-	transform: scale(1.06);
-}
+
 .portfolio_pic-img{
 	position: absolute;
 	top: 0;
@@ -85,8 +89,6 @@
 .portfolio_title{
 	font-size: 21px;
 	color: #33c1e3;
-	/* margin-bottom: 5px; */
-
 }
 
 .portfolio_work-desc{

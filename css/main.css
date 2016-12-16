@@ -2872,15 +2872,10 @@ th {
 
 .dropdown_menu-item {
   font-size: 18px;
-  padding: 10px;
-  border-bottom: 1px solid #dedede;
-  overflow: hidden;
-  border-left: 3px solid transparent;
-  padding-left: 4px; }
+  overflow: hidden; }
   .dropdown_menu-item:last-child {
-    border-bottom: 1px solid transparent; }
-  .dropdown_menu-item:hover {
-    border-left: 3px solid #33c1e3; }
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px; }
 
 .dropdown_menu-link {
   white-space: nowrap;
@@ -2889,7 +2884,11 @@ th {
   text-decoration: none;
   color: #414141;
   font-size: 18px;
-  font-weight: 300; }
+  font-weight: 300;
+  border-bottom: 1px solid #dedede;
+  padding: 7px; }
+  .dropdown_menu-link:hover {
+    border-bottom: 1px solid #33c1e3; }
 
 .dropdown_menu-icon {
   color: #33c1e3; }
@@ -3419,9 +3418,15 @@ html, body {
 .portfolio_link {
   display: block;
   text-decoration: none; }
+  .portfolio_link:hover .portfolio_title {
+    color: #e85f61; }
+  .portfolio_link:hover .portfolio_pic {
+    -webkit-transform: scale(1.06);
+    -ms-transform: scale(1.06);
+    transform: scale(1.06); }
 
-.portfolio_link:hover .portfolio_title {
-  color: #e85f61; }
+.portfolio_img_wrap {
+  overflow: hidden; }
 
 .portfolio_pic {
   height: 180px;
@@ -3430,11 +3435,6 @@ html, body {
   background-size: 100% 100%;
   position: relative;
   transition: .3s ease-in-out; }
-
-.portfolio_pic:hover {
-  -webkit-transform: scale(1.06);
-  -ms-transform: scale(1.06);
-  transform: scale(1.06); }
 
 .portfolio_pic-img {
   position: absolute;
@@ -3450,8 +3450,7 @@ html, body {
 
 .portfolio_title {
   font-size: 21px;
-  color: #33c1e3;
-  /* margin-bottom: 5px; */ }
+  color: #33c1e3; }
 
 .portfolio_work-desc {
   font-size: 14px;
